@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+ .site-footer
+ {
+     position: fixed;
+     bottom: 0;
+     text-align: center;
+     width: 100%;
+     background-color: black;
+     height: 30px;
+ }
+
+ div
+ {
+   margin-left: 5px;
+ }
+
+ .make-bolder
+ {
+   font-weight: bolder;
+   font-size: 15px;
+ }
+
+ .banner-image
+ {
+   height: 82px;
+   width: 60px;
+ }
+ html, body
+ {
+   background-color: #f10e1a !important;
+ }
