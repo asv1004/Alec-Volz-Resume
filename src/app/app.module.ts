@@ -1,13 +1,34 @@
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
+import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
+import { HeaderComponent } from './header/header.component';
+import { BodyComponent } from './body/body.component';
+import { FooterComponent } from './footer/footer.component';
+import { JobComponent } from './body/job/job.component';
+import { ReferencesComponent } from './body/references/references.component';
+import { EducationComponent } from './body/education/education.component';
+import { HonorsComponent } from './body/honors/honors.component';
+import { ActivitiesComponent } from './body/activities/activities.component';
+import { ObjectiveComponent } from './body/objective/objective.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent ],
-  bootstrap:    [ AppComponent ]
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    BodyComponent,
+    FooterComponent,
+    JobComponent,
+    ReferencesComponent,
+    EducationComponent,
+    HonorsComponent,
+    ActivitiesComponent,
+    ObjectiveComponent
+  ],
+  imports: [
+    BrowserModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
